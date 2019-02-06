@@ -11,7 +11,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class Student1 {
     
-    private String name;
+    private String name12;
     private int ID;
 
     private int nuMCourses;
@@ -35,16 +35,16 @@ public class Student1 {
     }
 
     public Student1(String name, int ID) {
-        this.name = name;
+        this.name12 = name;
         this.ID = ID;
     }
 
     public String getName() {
-        return name;
+        return name12;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name12 = name;
     }
 
     public int getID() {
